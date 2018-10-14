@@ -28,5 +28,6 @@ List<ReservationModel> findByDateBetween(LocalDate date, LocalDate date2);
 
 List<ReservationModel> findByLastnameContains(String lastname);
 
+List<ReservationModel> deleteByFirstname (String name);
 
 }
